@@ -171,7 +171,7 @@ Examples:
     python transcribe.py --input-dir ./input --output-dir ./output
 
     # Process a specific WAV file
-    python transcribe.py --input-dir /path/to/wavs --output-dir /path/to/output
+    python transcribe.py --input-dir /path/to/wavs --output-dir /path/to/output *
         """
     )
 
