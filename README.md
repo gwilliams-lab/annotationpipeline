@@ -11,6 +11,12 @@ The Whisper portion is a streamlined version of [OpenAI's free Whisper speech re
 The Charsiu portion is based off [Charsiu's alignment model and their provided Colab Notebooks](https://github.com/lingjzhu/charsiu). Forced alignment functions were utilized as it takes in the transcript generated from Whisper's model.
 
 -----------
+
+**PULLING REPO INSTRUCTIONS** 
+1) Pull from the main branch as well as from the dropdown "development" branch to ensure proper cloning of the Charsiu code. If this doesn't work, the following command can be run in the terminal:
+
+           git clone  https://github.com/lingjzhu/charsiu
+           cd charsiu
 **USER INSTRUCTIONS** 
 
 1) Upload .wav files into an "input" folder of your choice
@@ -18,14 +24,14 @@ The Charsiu portion is based off [Charsiu's alignment model and their provided C
 3) to run transcript.py, run the commands: 
 
     
-    python transcribe.py --input-dir ./input --output-dir ./output (for all .wav files in a directory)
-
-    python transcribe.py --input-dir /path/to/wavs --output-dir /path/to/output (for specific .wav file)
+        python transcribe.py --input-dir ./input --output-dir ./output (for all .wav files in a directory)
+    
+        python transcribe.py --input-dir /path/to/wavs --output-dir /path/to/output (for specific .wav file)
 
    
 5) run features.py to get phonetic features if necessary
 
-   python features.py --input-dir ./input --output-dir ./output
+       python features.py --input-dir ./input --output-dir ./output
 
 
 
