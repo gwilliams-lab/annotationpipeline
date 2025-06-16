@@ -21,7 +21,12 @@ The Charsiu portion is based off [Charsiu's alignment model and their provided C
     python transcribe.py --input-dir ./input --output-dir ./output (for all .wav files in a directory)
 
     python transcribe.py --input-dir /path/to/wavs --output-dir /path/to/output (for specific .wav file)
-4) run features.py to get phonetic features if necessary
+
+   
+5) run features.py to get phonetic features if necessary
+
+   python features.py --input-dir ./input --output-dir ./output
+
 
 
 
