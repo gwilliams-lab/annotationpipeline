@@ -4,6 +4,8 @@ Note: this code is modeled and referenced from Whisper (for transcript) + Charsi
 
 Note: Jupyter Notebook in progress...
 
+Note: Code works best for file lengths under around 20 minutes. 
+
 **[Google Colab Notebook version](https://colab.research.google.com/drive/1QaeiHJw8ga0DNkx8_2xey5fqyDtdk5EF?usp=sharing)**
 
 The Whisper portion is a streamlined version of [OpenAI's free Whisper speech recognition model ](https://openai.com/blog/whisper/) and is based on an [original notebook by @amrrs](https://github.com/amrrs/openai-whisper-webapp), with added documentation and test files by Pete Warden.
