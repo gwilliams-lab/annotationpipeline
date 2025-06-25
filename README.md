@@ -42,6 +42,5 @@ Below: to recreate virtual environment:
     source .venv/bin/activate  # (or .venv\Scripts\activate on Windows)
     pip install -r requirements.txt
 
-** Pipeline still is a work in progress!! Formatting needs to be edited. 
 
 
