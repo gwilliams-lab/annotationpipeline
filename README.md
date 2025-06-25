@@ -14,7 +14,7 @@ The Charsiu portion is based off [Charsiu's alignment model and their provided C
 -----------
 
 **PULLING REPO INSTRUCTIONS** 
-1) Pull from the main branch as well as from the dropdown "development" branch to ensure proper cloning of the Charsiu code. If this doesn't work, the following command can be run in the terminal:
+1) Pull from the main branch as well as from the dropdown "development" branch to ensure proper cloning of the Charsiu code. Alternatively, the following command can be run in the terminal:
 
            git clone  https://github.com/lingjzhu/charsiu
            cd charsiu
