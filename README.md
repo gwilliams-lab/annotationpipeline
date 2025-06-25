@@ -32,7 +32,7 @@ The Charsiu portion is based off [Charsiu's alignment model and their provided C
 5) run features.py to get phonetic features if necessary (** note: input is the prev transcribed csv file)
 
        python features.py --input-dir ./input --output-dir ./output
-
+       ex: python features.py output/migrationaudiop3.csv output/migrationaudiop3_with_features.csv 
 
 
 
