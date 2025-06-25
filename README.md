@@ -23,15 +23,13 @@ The Charsiu portion is based off [Charsiu's alignment model and their provided C
 
 1) Upload .wav files into an "input" folder of your choice
 2) Create an output directory for your files. For an input, "a.wav" the code will produce various outputs. If "transcribe.py" is run, the code will output "a.txt" (the raw transcript of the audio file through Whisper), "a.csv" and "a.TextGrid" which are the basic annotations. If the user chooses to run "features.py" the code will also output "a_with_features.csv" which outputs the phonetic feature annotation. 
-3) to run transcript.py, use the following commands: 
+3) to run transcribe.py, use the following command 
 
     
         python transcribe.py --input-dir ./input --output-dir ./output (for all .wav files in a directory)
-    
-        python transcribe.py --input-dir /path/to/wavs --output-dir /path/to/output (for specific .wav file)
 
    
-5) run features.py to get phonetic features if necessary
+5) run features.py to get phonetic features if necessary (** note: input is the prev transcribed csv file)
 
        python features.py --input-dir ./input --output-dir ./output
 
