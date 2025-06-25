@@ -1,10 +1,9 @@
 **Streamlined annotation pipeline VERSION 1** by Riya Anand
 
-Note: this code is modeled and referenced from Whisper (for transcript) + Charsiu (for alignment) functions.
-
-Note: Jupyter Notebook in progress...
-
-Note: Code works best for file lengths under around 20 minutes. 
+To Note: 
+- this code is modeled and referenced from Whisper (for transcript) + Charsiu (for alignment) functions.
+- Jupyter Notebook in progress...
+- Code works best for file lengths under around 20 minutes. 
 
 **[Google Colab Notebook version](https://colab.research.google.com/drive/1QaeiHJw8ga0DNkx8_2xey5fqyDtdk5EF?usp=sharing)**
 
