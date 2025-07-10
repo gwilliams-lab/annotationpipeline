@@ -1,7 +1,7 @@
 **Streamlined annotation pipeline VERSION 1** by Riya Anand
 
 To Note: 
-- this code is modeled and referenced from Whisper (for transcript) + Charsiu (for alignment) functions.
+- This code is modeled and referenced from Whisper (for transcript) + Charsiu (for alignment) functions.
 - Current Whisper model used in code --> 'base'. For more accurate annotation -- change to 'large'
 - Jupyter Notebook in progress...
 - Code works best for file lengths under around 20 minutes. 
