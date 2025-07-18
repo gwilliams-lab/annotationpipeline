@@ -47,6 +47,8 @@ Below: to recreate virtual environment:
 
 ## Third-Party Code
 Includes code from Charsiu (MIT License). Copyright (c) 2021 Jian Zhu.
+
 Modifications (c) 2025 Riya Anand.
+
 Original Project Link: [https://github.com/lingjzhu/charsiu]([url](https://github.com/lingjzhu/charsiu))
 
