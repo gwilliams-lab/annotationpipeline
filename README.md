@@ -2,8 +2,7 @@
 
 To Note: 
 - This code is modeled and referenced from Whisper (for transcript) + Charsiu (for alignment) functions.
-- Current Whisper model used in code --> 'base'. For more accurate annotation -- change to 'large'
-- Jupyter Notebook in progress...
+- Current Whisper model used in code --> 'base'. For more accurate annotation -- change to 'large' in transcribe.py
 - Code works best for file lengths under around 20 minutes. 
 
 **[Google Colab Notebook version](https://colab.research.google.com/drive/1QaeiHJw8ga0DNkx8_2xey5fqyDtdk5EF?usp=sharing)**
@@ -21,7 +20,7 @@ The Charsiu portion is based off [Charsiu's alignment model and their provided C
            cd charsiu
 **USER INSTRUCTIONS** 
 
-1) Upload .wav files into an "input" folder of your choice
+1) Upload .wav files into an "input" folder of your choice 
 2) Create an output directory for your files. For an input, "a.wav" the code will produce various outputs. If "transcribe.py" is run, the code will output "a.txt" (the raw transcript of the audio file through Whisper), "a.csv" and "a.TextGrid" which are the basic annotations. If the user chooses to run "features.py" the code will also output "a_with_features.csv" which outputs the phonetic feature annotation. Please note that features.py requires an input csv file which transcribe.py generates.
 4) to run transcribe.py, use the following command 
 
@@ -29,10 +28,11 @@ The Charsiu portion is based off [Charsiu's alignment model and their provided C
         python transcribe.py --input-dir ./input --output-dir ./output (for all .wav files in a directory)
 
    
-5) run features.py to get phonetic features if necessary (** note: input is the prev transcribed csv file)
+5) run features.py to get more extensive phonetic features if necessary (** note: input is the prev transcribed csv file)
 
        python features.py --input-dir ./input --output-dir ./output
-       ex: python features.py output/migrationaudiop3.csv output/migrationaudiop3_with_features.csv 
+   
+ex: python features.py output/migrationaudiop3.csv output/migrationaudiop3_with_features.csv 
 
 
 
