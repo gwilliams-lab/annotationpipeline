@@ -52,3 +52,9 @@ Modifications (c) 2025 Riya Anand.
 
 Original Project Link: [https://github.com/lingjzhu/charsiu]([url](https://github.com/lingjzhu/charsiu))
 
+Portions adapted from openai-whisper-webapp (MIT License). Copyright (c) 2022 amrrs.
+
+Modifications (c) 2025 Riya Anand.
+
+Original Project Link: [https://github.com/amrrs/openai-whisper-webapp/tree/main]([url](https://github.com/amrrs/openai-whisper-webapp/tree/main))
+
